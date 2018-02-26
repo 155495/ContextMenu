@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/viewmore"
+    android:title="View More"/>
+    <item android:id="@+id/add"
+        android:title="Add More"/>
+    <item android:id="@+id/sharae"
+        android:title="Share this"/>
+
+</menu>
