@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         }*/
 
 //Method 2
-        AdapterView.AdapterContextMenuInfo adapterContextMenuInfo= (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+       // AdapterView.AdapterContextMenuInfo adapterContextMenuInfo= (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
         switch (item.getItemId()){
             case R.id.viewmore:
                 Toast.makeText(getApplicationContext(),"View Moere",Toast.LENGTH_LONG).show();
