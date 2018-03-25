@@ -1,5 +1,5 @@
-# ContextMenu
-Menus
+# :heart::heart: :heart:  ContextMenu :heart::heart::heart:
+:heart: Menus
 In this document Defining a Menu in XML Creating an Options Menu
 Handling click events Changing menu items at runtime Creating Contextual Menus Creating a floating context menu
 Using the contextual action mode Creating a Popup Menu Handling click events Creating Menu Groups Using checkable menu items Adding Menu Items Based on an Intent Allowing your activity to be added to other menus
@@ -17,15 +17,20 @@ Menus are a common user interface component in many types of applications. To pr
 Beginning with Android 3.0 (API level 11), Android-powered devices are no longer required to provide a dedicated Menu button. With this change, Android apps should migrate away from a dependence on the traditional 6-item menu panel and instead provide an app bar to present common user actions.
 
 Although the design and user experience for some menu items have changed, the semantics to define a set of actions and options is still based on the Menu APIs. This guide shows how to create the three fundamental types of menus or action presentations on all versions of Android
-## Screen Shot
+## :heart: Screen Shot
 ![output-of-floating-android-context-popup-menu-example](https://user-images.githubusercontent.com/36828976/37878838-7e9713c6-308c-11e8-8b15-7cddd9538441.gif)
 
 
-### Context menu and contextual action mode
+### :heart: Context menu and contextual action mode
 A context menu is a floating menu that appears when the user performs a long-click on an element. It provides actions that affect the selected content or context frame.
 The contextual action mode displays action items that affect the selected content in a bar at the top of the screen and allows the user to select multiple items.
+*****************************************************************************************************
+###### add this line to *MainActivity.java* :heart:
+```javascript
+registerForContextMenu (View view)
+````
 *******************************************************************************************
-#### menu.xml
+#### :heart: menu.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
@@ -39,7 +44,7 @@ The contextual action mode displays action items that affect the selected conten
 </menu>
 ```
 **************************************************************************************
-#### MainActivity.java
+#### :heart: MainActivity.java
 ``` javascript
 @Override
 public void onCreateContextMenu(ContextMenu menu, View v,
